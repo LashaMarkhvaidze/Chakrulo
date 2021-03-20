@@ -1,0 +1,11 @@
+
+body{
+    background: url(imgs/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 100%;
+    width: 99%;
+
+}
