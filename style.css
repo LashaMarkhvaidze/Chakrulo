@@ -32,3 +32,12 @@ button:focus {
     border-color:rgb(0, 0, 0);
     background-color: black;
 }
+
+#ball{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: rgb(247, 149, 3);
+    left: 0px;
+}
