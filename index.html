@@ -8,15 +8,25 @@
   <link rel="stylesheet" href="fonts/bpg-quadrosquare-caps-2013-master.zip">
   <script src="myscripts.js" defer></script>
   <link rel="import" href="content/B18875.htm">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
+  <script src="jquery-3.5.1.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
 
   <title>კოსმოსი</title>
 </head>
 <body> 
-  <audio autoplay controls>
-    <source src="Chakrulo - ჩაკრულო (ტექსტით).mp3" type="audio/mpeg">
 
+  <div id="audio-container" onclick="play()">
+  <audio autoplay controls id="audio">
+    <source src="Chakrulo - ჩაკრულო (ტექსტით).mp3" type="audio/mpeg">
   </audio>
+  </div>
+
+  <button class ="btn glyphicon glyphicon-play pp" onclick="play()"></button>
+  <button class ="btn glyphicon glyphicon-pause pp" onclick="pause()"> </button>
+
+
 </body>
 </html>
