@@ -158,7 +158,8 @@ function cdf(){
         deg4 -=0.1;
         cd.style.left = left4 + "%";
         cd.style.transform = "rotate(" + deg4 +"deg)"
-        
+        cd.style.top = topp4 + "%";
+
 
         if(left4 = -100){  //amaze samushao
             var taaa = random(120, 170);
