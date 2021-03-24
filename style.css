@@ -69,7 +69,7 @@ button:focus {
     transform: rotate(0deg);
     left: -10%;
 
-    width: 10%;
+    width: 7%;
     height: auto;
 
 }
@@ -79,7 +79,7 @@ button:focus {
     transform: rotate(0deg);
     left: -10%;
 
-    width: 10%;
+    width: 7%;
     height: auto;
 }
 
@@ -87,7 +87,7 @@ button:focus {
     position: fixed;
     transform: rotate(0deg);
     left: -10%;
-    width: 15%;
+    width: 20%;
     height: auto;
 }
 
