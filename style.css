@@ -40,13 +40,15 @@ button:focus {
     height: 80px;
     border-radius: 50%;
     background-color: rgb(247, 149, 3);
+    left: -10%;
 
 }
 
 #tesla{
     position: fixed;
     transform: rotate(0deg);
-    
+    left: -20%;
+
     width: 20%;
     height: 20%;
 }
@@ -54,7 +56,42 @@ button:focus {
 #gza{
     position: fixed;
     transform: rotate(0deg);
-    
+    left: -10%;
+
     width: 10%;
     height: 18%;
+}
+
+#pizza{
+    position: fixed;
+    transform: rotate(0deg);
+    left: -10%;
+
+    width: 10%;
+    height: 18%;
+}
+
+#cd{
+    position: fixed;
+    transform: rotate(0deg);
+    left: -10%;
+
+    width: 10%;
+    height: 18%;
+}
+
+#sword{
+    position: fixed;
+    transform: rotate(0deg);
+    left: -10%;
+    width: 10%;
+    height: 18%;
+}
+
+#powered{
+    position: fixed;
+    right: 1%;
+    bottom: 0%;
+    color: rgb(131, 130, 130);
+    font-weight: bold;
 }

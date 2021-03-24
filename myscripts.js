@@ -1,6 +1,11 @@
 var sound = document.getElementById("audio");
 var ball = document.getElementById('tesla');
 var gza = document.getElementById('gza');
+var sword = document.getElementById('sword');
+var cd = document.getElementById('cd');
+var pizza = document.getElementById('pizza');
+
+
 
 var left = 0;
 var topp = 0;
@@ -12,10 +17,27 @@ var left1 = 0;
 var topp1 = 0;
 var deg1 = 0;
 
+var left2 = 0;
+var topp2 = 0;
+var deg2 = 0;
+
+var left3 = 0;
+var topp3 = 0;
+var deg3 = 0;
+
+var left4 = 0;
+var topp4 = 0;
+var deg4 = 0;
+
 
 audio();
 move();
 gzaf();
+pizzaf();
+swordf();
+cdf();
+
+
 
 window.onscroll = function () {
     window.scrollTo(0,0);
@@ -72,10 +94,77 @@ function gzaf(){
         
 
         if(topp1>180|| left1<-50){  //amaze samushao
-            var t = random(100, 200);
-            var y = -80
+            var t = random(50, 150);
+            var y = -40
             left1=t;
             topp1=y;
+        }        
+    }, 1);
+
+}
+
+function pizzaf(){
+    left2 = -100;
+    topp2 = 200;
+    
+    setInterval(function(){
+        left2+=0.02;  
+        topp2-=0.02;
+        deg2 +=0.1;
+        pizza.style.left = left2 + "%";
+        pizza.style.top = topp2 + "%";
+        pizza.style.transform = "rotate(" + deg2 +"deg)"
+        
+
+        if(topp2<-120|| left2>150){  //amaze samushao
+            var ta = random(-100, 30);
+            var ya = 150
+            left2=ta;
+            topp2=ya;
+        }        
+    }, 1);
+
+}
+
+function swordf(){
+    left3 = -150;
+    topp3 = 50;
+    
+    setInterval(function(){
+        left3+=0.02;  
+        deg3 +=0.1;
+        sword.style.left = left3 + "%";
+        sword.style.top = topp3 + "%";
+        sword.style.transform = "rotate(" + deg3 +"deg)"
+        
+
+        if(left3>200){  //amaze samushao
+            var taa = random(-100, -200);
+            var yaa = random(30, 80)
+            left3=taa;
+            topp3=yaa;
+        }        
+    }, 1);
+
+}
+
+function cdf(){
+    left4 = 150;
+    topp4 = 30;
+    
+    setInterval(function(){
+        left4-=0.02;  
+        
+        deg4 -=0.1;
+        cd.style.left = left4 + "%";
+        cd.style.transform = "rotate(" + deg4 +"deg)"
+        
+
+        if(left4 = -100){  //amaze samushao
+            var taaa = random(120, 170);
+            var yaaa = random(20, 80);
+            left4=taaa;
+            topp4=yaaa;
         }        
     }, 1);
 
