@@ -161,7 +161,7 @@ function cdf(){
         cd.style.top = topp4 + "%";
 
 
-        if(left4 = -100){  //amaze samushao
+        if(left4 < -100){  //amaze samushao
             var taaa = random(120, 170);
             var yaaa = random(20, 80);
             left4=taaa;
