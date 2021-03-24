@@ -140,7 +140,7 @@ function swordf(){
 
         if(left3>200){  //amaze samushao
             var taa = random(-100, -200);
-            var yaa = random(30, 80)
+            var yaa = random(30, 80);
             left3=taa;
             topp3=yaa;
         }        
@@ -157,7 +157,7 @@ function cdf(){
         
         deg4 -=0.1;
         cd.style.left = left4 + "%";
-        cd.style.transform = "rotate(" + deg4 +"deg)"
+        cd.style.transform = "rotate(" + deg4 +"deg)";
         cd.style.top = topp4 + "%";
 
 
