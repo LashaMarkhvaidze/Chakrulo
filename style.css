@@ -51,6 +51,7 @@ button:focus {
 
     width: 20%;
     height: auto;
+
 }
 
 #gza{
@@ -60,6 +61,7 @@ button:focus {
 
     width: 10%;
     height: auto;
+
 }
 
 #pizza{
@@ -67,8 +69,9 @@ button:focus {
     transform: rotate(0deg);
     left: -10%;
 
-    width: 18%;
+    width: 10%;
     height: auto;
+
 }
 
 #cd{
@@ -76,7 +79,7 @@ button:focus {
     transform: rotate(0deg);
     left: -10%;
 
-    width: 18%;
+    width: 10%;
     height: auto;
 }
 
