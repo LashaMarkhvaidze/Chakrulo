@@ -67,8 +67,8 @@ button:focus {
     transform: rotate(0deg);
     left: -10%;
 
-    width: 10%;
-    height: 18%;
+    width: 20%;
+    height: 25%;
 }
 
 #cd{
@@ -76,16 +76,16 @@ button:focus {
     transform: rotate(0deg);
     left: -10%;
 
-    width: 15%;
-    height: 18%;
+    width: 20%;
+    height: 25%;
 }
 
 #sword{
     position: fixed;
     transform: rotate(0deg);
     left: -10%;
-    width: 15%;
-    height: 18%;
+    width: 20%;
+    height: 25%;
 }
 
 #powered{
