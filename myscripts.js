@@ -5,7 +5,7 @@ var sword = document.getElementById('sword');
 var cd = document.getElementById('cd');
 var pizza = document.getElementById('pizza');
 
-
+//while I was writing this code I didn't know ES6 well :D
 
 var left = 0;
 var topp = 0;
